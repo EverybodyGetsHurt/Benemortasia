@@ -7,7 +7,7 @@
 
 .EXAMPLE
     Dit is een voorbeeldcommando van hoe het script moet worden uitgevoerd.
-    .\Get-ExampleScript.ps1 -Switch1 -Param1
+    .\Get-ExampleScript.ps1 -Switch1 -Waarde1 -Param1
 
 .LINK
     https://github.com/EverybodyGetsHurt/Benemortasia/new/master
@@ -21,8 +21,9 @@
     Author:
     Ivo Mertens
     Valid IT Infrastructures BV
-
-
+    
+    Based on the script "PowerShell Script Boiler Template.ps1"
+    from Author : Reinout Seegers, Valid IT Infrastructures BV.
 #>
 [CmdletBinding()]
 param (
@@ -78,7 +79,6 @@ Function Get-ExampleFunction {
 #region Logic
 ######
 
-
 try {
     
     Get-ExampleFunction -Param1 $Parameter1
@@ -87,4 +87,5 @@ try {
     
 
 } 
+
 #region Logic
