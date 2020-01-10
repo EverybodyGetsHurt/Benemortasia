@@ -10,7 +10,7 @@
     .\Get-ExampleScript.ps1 -Switch1 -Waarde1 -Param1
 
 .LINK
-    https://github.com/EverybodyGetsHurt/Benemortasia/new/master
+    https://github.com/EverybodyGetsHurt/Benemortasia/blob/master/Script-Template.ps1
 
 .NOTES
 
